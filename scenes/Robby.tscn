@@ -1,0 +1,32 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://assets/robby/wheel.res" type="SpriteFrames" id=1]
+[ext_resource path="res://assets/robby/head.res" type="SpriteFrames" id=2]
+[ext_resource path="res://assets/robby/body.res" type="SpriteFrames" id=3]
+[ext_resource path="res://assets/robby/hook.res" type="SpriteFrames" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 3, 7 )
+
+[node name="Robby" type="KinematicBody2D"]
+position = Vector2( 0, -12 )
+
+[node name="Head" type="AnimatedSprite" parent="."]
+frames = ExtResource( 2 )
+
+[node name="Body" type="AnimatedSprite" parent="."]
+position = Vector2( 0, 6 )
+frames = ExtResource( 3 )
+
+[node name="Hook" type="AnimatedSprite" parent="."]
+position = Vector2( 6, 6 )
+frames = ExtResource( 4 )
+
+[node name="Wheels" type="AnimatedSprite" parent="."]
+position = Vector2( -1, 10 )
+frames = ExtResource( 1 )
+animation = "move"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 5 )
+shape = SubResource( 1 )

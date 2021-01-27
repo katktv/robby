@@ -1,0 +1,31 @@
+{ "frames": [
+   {
+    "filename": "robby (head) 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 12, "h": 8 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 2, "y": 0, "w": 12, "h": 8 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "robby (head) 1.aseprite",
+    "frame": { "x": 12, "y": 0, "w": 12, "h": 8 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 2, "y": 0, "w": 12, "h": 8 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.25-x64",
+  "image": "head.png",
+  "format": "RGBA8888",
+  "size": { "w": 24, "h": 8 },
+  "scale": "1",
+  "frameTags": [
+  ]
+ }
+}
